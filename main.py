@@ -26,9 +26,9 @@ else:
 _f = open(file_name, "w+")
 
 ctab = str(input("Enter the tab trigger: "))
-
+cdes = str(input("Enter the snippet description: "))
 __write_val = "<snippet>\n<content><![CDATA[\n" + cdata + "\n]]></content>\n<tabTrigger>" + \
-    ctab + "</tabTrigger>\n<description>Description not provided</description>\n</snippet>"
+    ctab + "</tabTrigger>\n<description>" + cdes + "</description>\n</snippet>"
 
 _f.write(__write_val)
 _f.close()
