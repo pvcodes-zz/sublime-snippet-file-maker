@@ -1,5 +1,5 @@
 file_name = str(input("Enter the file name: "))
-file_name += ".sublime.snippet"
+file_name += ".sublime-snippet"
 
 cdata = ""
 
